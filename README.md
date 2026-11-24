@@ -1,31 +1,34 @@
 # GolfKok (골프콕)
 
-> 별도의 API 키 없이 클럽·구질 문제별로 YouTube 골프 레슨 영상을 바로 검색하고, 클럽별 즐겨찾기로 모아볼 수 있는 Windows 데스크톱 앱입니다.
+> 별도의 API 키 없이 클럽·구질 문제별로 YouTube 골프 레슨 영상을 바로 검색하고, 클럽별 즐겨찾기로 모아볼 수 있는 앱입니다. (Windows PC · Android 스마트폰 지원)
 
 ## 다운로드
 
-Python 설치나 관리자 권한이 필요하지 않습니다. 편한 방식을 선택해 내려받으세요.
+사용하시는 기기에 맞는 파일을 내려받아 설치하세요.
 
 👉 **[최신 릴리스 다운로드 페이지 열기 (v1.0.1)](https://github.com/jh2deity-collab/golfkok-releases/releases/latest)**
 
-| 파일 | 용도 |
-| :--- | :--- |
-| **`GolfKok-Setup-1.0.1.exe`** | Windows 설치 프로그램 (시작 메뉴/바탕 화면 바로가기 생성, 관리자 권한 불필요) |
-| **`GolfKok-Portable-1.0.1.zip`** | 무설치 휴대용 ZIP (압축을 풀고 `GolfKok.exe` 바로 실행) |
-| `*.sha256.txt` | 파일 무결성 확인용 SHA-256 해시 |
+| 기기 | 파일 | 용도 |
+| :--- | :--- | :--- |
+| **📱 Android 스마트폰** | **[`GolfKok-1.0.1.apk`](https://github.com/jh2deity-collab/golfkok-releases/releases/download/v1.0.1/GolfKok-1.0.1.apk)** | 안드로이드 단독 앱 (Android 7.0 이상 · PC 없이 바로 검색/재생) |
+| **💻 Windows PC (설치형)** | **[`GolfKok-Setup-1.0.1.exe`](https://github.com/jh2deity-collab/golfkok-releases/releases/download/v1.0.1/GolfKok-Setup-1.0.1.exe)** | Windows 설치 프로그램 (시작 메뉴/바탕 화면 바로가기 생성 · 관리자 권한 불필요) |
+| **💻 Windows PC (무설치)** | **[`GolfKok-Portable-1.0.1.zip`](https://github.com/jh2deity-collab/golfkok-releases/releases/download/v1.0.1/GolfKok-Portable-1.0.1.zip)** | 무설치 휴대용 ZIP (압축을 풀고 `GolfKok.exe` 바로 실행) |
+| 무결성 확인 | `*.sha256.txt` | 파일 무결성 확인용 SHA-256 해시 |
+
+> ⚠️ **주의**: 스마트폰에서는 Windows용 `.exe` / `.zip` 파일이 아닌 **`GolfKok-1.0.1.apk`** 파일을 내려받아 설치해 주세요! (`.exe` 파일은 안드로이드에서 실행할 수 없어 오류가 발생합니다.)
 
 ## 설치 및 실행 방법
 
-### 방법 1: 설치 파일 (`GolfKok-Setup-1.0.1.exe`)
-1. `GolfKok-Setup-1.0.1.exe`를 내려받아 실행합니다.
-   - Windows Defender SmartScreen 경고가 뜨는 경우, **추가 정보 → 실행**을 눌러 진행하세요.
-2. 설치가 끝나면 **GolfKok**이 자동으로 실행되며 브라우저에서 앱 화면이 열립니다.
+### 📱 Android 스마트폰 (`GolfKok-1.0.1.apk`)
+1. 스마트폰 브라우저에서 **`GolfKok-1.0.1.apk`**를 내려받아 엽니다.
+2. **「출처를 알 수 없는 앱 설치 허용」** 안내가 나오면 허용 후 **설치**를 누릅니다.
+   - Google Play 프로텍트 확인 창이 뜨면 **「무시하고 설치」**를 선택하세요.
+3. 설치가 완료되면 홈 화면의 **GolfKok** 아이콘을 눌러 바로 검색과 재생을 이용할 수 있습니다.
 
-### 방법 2: 무설치 휴대용 (`GolfKok-Portable-1.0.1.zip`)
-1. `GolfKok-Portable-1.0.1.zip`의 압축을 원하는 폴더에 풉니다.
-2. 폴더 안의 **`GolfKok.exe`**를 더블클릭해 바로 실행합니다.
-
-> 💡 사용을 마치면 브라우저 탭을 닫아 주세요. 로컬 서버도 자동으로 종료됩니다.
+### 💻 Windows PC (`GolfKok-Setup-1.0.1.exe` 또는 `GolfKok-Portable-1.0.1.zip`)
+- **설치형**: `GolfKok-Setup-1.0.1.exe` 실행 → SmartScreen 경고가 뜨면 **추가 정보 → 실행**
+- **무설치 휴대용**: `GolfKok-Portable-1.0.1.zip` 압축 해제 → `GolfKok\GolfKok.exe` 더블클릭
+- 사용을 마치면 브라우저 탭을 닫아 주세요. 로컬 서버도 자동으로 종료됩니다.
 
 ## 주요 기능
 
@@ -35,11 +38,6 @@ Python 설치나 관리자 권한이 필요하지 않습니다. 편한 방식을
   - 정렬: 관련도순 / 조회수순 / 최신순
   - 길이: 3~20분(추천) / 전체(쇼츠 포함) / 3분 미만 / 쇼츠만 보기 / 20분 이상
 - **앱 내 플레이어 & 클럽별 즐겨찾기**: 검색 결과를 바로 재생하고, 마음에 드는 레슨을 클럽별로 분류 저장
-
-## 시스템 요구 사항
-
-- Windows 10 / 11 (64-bit)
-- 인터넷 연결 (YouTube 검색 및 영상 재생용)
 
 ## 라이선스
 
