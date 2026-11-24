@@ -1,0 +1,25 @@
+GolfKok (골프콕) 라이선스 / License
+
+Copyright (c) 2026 SNPE.Inc. All rights reserved.
+
+[한국어]
+본 소프트웨어(GolfKok, 골프콕)와 관련 문서, 화면 디자인, 로고의 저작권은 SNPE.Inc에 있습니다.
+SNPE.Inc가 서면으로 허락하지 않는 한, 이 소프트웨어를 복제, 수정, 배포, 판매하거나
+다른 제품에 포함할 수 없습니다.
+
+이 소프트웨어는 "있는 그대로(AS IS)" 제공되며, 명시적이든 묵시적이든 어떠한 보증도 하지 않습니다.
+이 소프트웨어를 사용하여 발생한 손해에 대해 SNPE.Inc는 책임을 지지 않습니다.
+
+YouTube 검색 및 재생 기능은 YouTube의 서비스 약관과 각 영상의 저작권 정책을 따릅니다.
+영상과 썸네일의 권리는 각 원저작자에게 있습니다.
+
+[English]
+This software (GolfKok) and its documentation, interface design, and logo are the copyright of SNPE.Inc.
+Without written permission from SNPE.Inc, you may not copy, modify, distribute, sell, or include
+this software in other products.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+SNPE.Inc is not liable for any damages arising from the use of this software.
+
+YouTube search and playback are subject to YouTube's Terms of Service and each video's copyright policy.
+Rights to videos and thumbnails belong to their respective owners.
